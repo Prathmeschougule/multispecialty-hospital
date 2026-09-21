@@ -9,21 +9,21 @@
 @theme {
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 
-  --color-primary-50: #eef5f9;
-  --color-primary-100: #d5e6ef;
-  --color-primary-200: #abcddf;
-  --color-primary: #2a6f97;
-  --color-primary-700: #235d7f;
-  --color-primary-800: #1c4b67;
-  --color-primary-900: #143a51;
-  --color-primary-950: #0d2839;
+  /* Updated Primary Blue */
+  --color-primary-50: #eef4ff;
+  --color-primary-100: #dbe8ff;
+  --color-primary-200: #b7d1ff;
+  --color-primary: #1a5dc4;
+  --color-primary-700: #174fad;
+  --color-primary-800: #13408d;
+  --color-primary-900: #0f336f;
+  --color-primary-950: #092247;
 
   --color-ice: #e0fbfc;
 
   --color-accent-50: #e9f6f4;
   --color-accent: #2a9d8f;
   --color-accent-600: #238579;
-  /* Small text on light backgrounds: meets WCAG AA (4.5:1), unlike --color-accent */
   --color-accent-700: #19655c;
 
   --color-emergency-50: #fdecee;
@@ -33,10 +33,11 @@
   --color-emergency-700: #9b1523;
 
   --color-ink: #495057;
-  --color-heading: #14324a;
+  --color-heading: #102f5f;
 
-  --shadow-soft: 0 18px 50px -20px rgb(20 58 81 / 0.28);
-  --shadow-card: 0 1px 2px rgb(20 58 81 / 0.06), 0 8px 24px -12px rgb(20 58 81 / 0.16);
+  --shadow-soft: 0 18px 50px -20px rgb(26 93 196 / 0.28);
+  --shadow-card: 0 1px 2px rgb(26 93 196 / 0.06),
+                 0 8px 24px -12px rgb(26 93 196 / 0.16);
 
   --animate-float: float 7s ease-in-out infinite;
   --animate-float-delayed: float 7s ease-in-out 1.5s infinite;

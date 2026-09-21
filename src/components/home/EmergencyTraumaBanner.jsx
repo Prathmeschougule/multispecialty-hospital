@@ -8,9 +8,9 @@ const points = ['Immediate trauma assessment', 'ICU & Digital X-Ray in-house', '
 
 export default function EmergencyTraumaBanner() {
   return (
-    <section aria-labelledby="trauma-banner-heading" className="relative z-10 -mt-24 lg:-mt-28">
+    <section aria-labelledby="trauma-banner-heading" className="relative pb-4">
       <Container>
-        <div className="relative overflow-hidden rounded-[2rem] bg-linear-to-br from-emergency-700 via-emergency to-[#e0573f] p-6 shadow-2xl shadow-emergency/25 sm:p-8 lg:p-10">
+        <div className="relative overflow-hidden rounded-[2rem] bg-linear-to-br from-[#0f2a5c] via-[#15469e] to-[#1a5dc4] p-6 shadow-2xl shadow-[#15469e]/25 sm:p-8 lg:p-10">
           <div aria-hidden="true" className="absolute -right-20 -top-24 h-72 w-72 rounded-full border-[36px] border-white/10" />
           <div aria-hidden="true" className="absolute -bottom-32 left-1/3 h-64 w-64 rounded-full border-[28px] border-white/5" />
 
@@ -43,12 +43,12 @@ export default function EmergencyTraumaBanner() {
                 href={hospital.emergency.href}
                 className="group flex items-center gap-3 rounded-2xl bg-white p-4 shadow-lg transition hover:-translate-y-0.5"
               >
-                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-emergency-50 text-emergency">
+                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-[#e8f0fb] text-[#15469e]">
                   <Phone className="h-5 w-5" aria-hidden="true" />
                 </span>
                 <span className="min-w-0">
                   <span className="block text-xs font-semibold uppercase tracking-wider text-ink/70">Emergency</span>
-                  <span className="block truncate text-base font-extrabold text-emergency-700">{hospital.emergency.phone}</span>
+                  <span className="block truncate text-base font-extrabold text-[#0f2a5c]">{hospital.emergency.phone}</span>
                 </span>
               </a>
               <a

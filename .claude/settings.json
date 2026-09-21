@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "PowerShell(Get-Content public/sitemap.xml -TotalCount 8; \\(Select-String -Path public/sitemap.xml -Pattern '<loc>'\\).Count)",
-      "PowerShell(node scripts/generate-sitemap.mjs; \\(Select-String -Path public/sitemap.xml -Pattern '<loc>'\\).Line.Trim\\(\\) -replace '</?loc>','' | ForEach-Object { $_ })"
+      "PowerShell(node scripts/generate-sitemap.mjs; \\(Select-String -Path public/sitemap.xml -Pattern '<loc>'\\).Line.Trim\\(\\) -replace '</?loc>','' | ForEach-Object { $_ })",
+      "Bash(python -)"
     ]
   }
 }

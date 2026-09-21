@@ -66,10 +66,9 @@ export const hospital = {
     ],
   },
 
-  // Set to an imported photo (e.g. import heroImage from '../assets/images/hospital/building.jpg')
-  // to replace the illustration in the homepage hero.
+  // Homepage hero photo, served from /public
   images: {
-    hero: null,
+    hero: '/hospital%20img.jpeg',
   },
 
   // PLACEHOLDER – use verified figures only
