@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2A6F97" />
+
+    <!-- Static SEO defaults for crawlers that do not run JavaScript (WhatsApp, Facebook, etc.).
+         Once React loads, src/components/seo/Seo.jsx removes every [data-static-seo] tag and
+         sets the correct per-page values, so there are never duplicate canonical / og tags.
+         TODO before launch: replace the domain and add /og-image.jpg (1200x630). -->
+    <title data-static-seo>EKDANT Hospital Multispeciality &amp; Trauma Center · Care You Can Trust, Blessings You Can Feel</title>
+    <meta
+      data-static-seo
+      name="description"
+      content="EKDANT Hospital Multispeciality &amp; Trauma Center: 24x7 emergency and trauma care, orthopedics, medicine and surgery, with ICU, digital X-ray, C-arm, laboratory, pharmacy and physiotherapy."
+    />
+    <link data-static-seo rel="canonical" href="https://www.ekdanthospital.com/" />
+
+    <meta data-static-seo property="og:type" content="website" />
+    <meta data-static-seo property="og:site_name" content="EKDANT Hospital Multispeciality &amp; Trauma Center" />
+    <meta data-static-seo property="og:title" content="EKDANT Hospital Multispeciality &amp; Trauma Center" />
+    <meta
+      data-static-seo
+      property="og:description"
+      content="Care You Can Trust, Blessings You Can Feel. 24x7 emergency &amp; trauma care, orthopedics, medicine, surgery, ICU, digital X-ray, laboratory and physiotherapy."
+    />
+    <meta data-static-seo property="og:url" content="https://www.ekdanthospital.com/" />
+    <meta data-static-seo property="og:image" content="https://www.ekdanthospital.com/og-image.jpg" />
+    <meta data-static-seo property="og:locale" content="en_IN" />
+    <meta data-static-seo name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script data-static-seo type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["Hospital", "LocalBusiness", "EmergencyService"],
+        "name": "EKDANT Hospital Multispeciality & Trauma Center",
+        "url": "https://www.ekdanthospital.com",
+        "telephone": "+91 00000 00000",
+        "email": "info@ekdanthospital.com",
+        "slogan": "Care You Can Trust, Blessings You Can Feel",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hospital address line 1, Area / Landmark",
+          "addressLocality": "City",
+          "addressRegion": "State",
+          "postalCode": "000000",
+          "addressCountry": "IN"
+        },
+        "medicalSpecialty": ["Orthopedic", "InternalMedicine", "Surgical", "Emergency"],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "09:00",
+            "closes": "13:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "17:00",
+            "closes": "21:00"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

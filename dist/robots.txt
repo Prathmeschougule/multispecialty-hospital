@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO: replace the domain below with the hospital's real domain
+Sitemap: https://www.ekdanthospital.com/sitemap.xml
