@@ -38,7 +38,7 @@ export default function ContactSection() {
       <Container>
         <SectionHeading
           align="center"
-          eyebrow="Contact & Location"
+          eyebrow="Contact & Location."
           title="Visit EKDANT Hospital"
           description="Reach us any time for emergencies, or during OPD hours for consultations and appointments."
         />
