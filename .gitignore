@@ -1,0 +1,24 @@
+# Dependencies – installed fresh by `npm install` on every machine and on Vercel
+node_modules/
+
+# Build output – Vercel builds this itself
+dist/
+
+# Environment variables (keep .env.example committed)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+*.log
+
+# Editor / OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
