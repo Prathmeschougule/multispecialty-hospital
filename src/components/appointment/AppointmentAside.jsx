@@ -61,7 +61,7 @@ export default function AppointmentAside() {
         <p className="mt-2 text-sm leading-relaxed text-ink">
           Our reception team can help you choose the right department and doctor.
         </p>
-        <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
+        <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-1">
           <Button href={hospital.appointments.href} variant="dark" size="sm">
             <Phone className="h-4 w-4" aria-hidden="true" />
             {hospital.appointments.phone}

@@ -28,7 +28,7 @@ export default function SpecialistsSection({ limit = 6 }) {
           </Button>
         </div>
 
-        <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {loading
             ? Array.from({ length: limit }, (_, index) => (
                 <li key={index}>

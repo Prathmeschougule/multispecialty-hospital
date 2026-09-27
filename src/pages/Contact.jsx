@@ -55,7 +55,7 @@ export default function Contact() {
 
       <section className="py-16 lg:py-20">
         <Container>
-          <div className="grid gap-5 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <ContactCard
               icon={Siren}
               label={`Emergency & Trauma · ${hospital.emergency.availability}`}
@@ -90,7 +90,7 @@ export default function Contact() {
             />
           </div>
 
-          <div className="mt-6 grid gap-6 lg:grid-cols-12">
+          <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-12">
             <div className="flex flex-col gap-6 lg:col-span-5">
               <div className="rounded-3xl bg-white p-6 ring-1 ring-primary/10 sm:p-8">
                 <h2 className="flex items-center gap-2 text-xl font-bold">

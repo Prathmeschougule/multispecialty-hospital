@@ -12,7 +12,7 @@ export default function FacilityBenefits({ facility }) {
       />
       <div aria-hidden="true" className="pointer-events-none absolute -left-32 top-1/3 h-96 w-96 rounded-full bg-accent/20 blur-3xl" />
 
-      <Container className="relative grid gap-12 lg:grid-cols-12 lg:items-center lg:gap-16">
+      <Container className="relative grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-16">
         <div className="lg:col-span-5">
           <SectionHeading
             tone="light"
@@ -26,7 +26,7 @@ export default function FacilityBenefits({ facility }) {
           </div>
         </div>
 
-        <ul className="grid gap-5 sm:grid-cols-2 lg:col-span-7">
+        <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:col-span-7">
           {facility.benefits.map(({ icon: Icon, title, description }, index) => (
             <li
               key={title}

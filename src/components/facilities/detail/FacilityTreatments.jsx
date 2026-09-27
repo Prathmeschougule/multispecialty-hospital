@@ -8,7 +8,7 @@ export default function FacilityTreatments({ facility }) {
   return (
     <section id="treatments" className="scroll-mt-28 bg-primary-50/70 py-20 lg:py-24">
       <Container>
-        <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
             <div className="lg:sticky lg:top-36">
               <SectionHeading eyebrow="Treatment Information" title={facility.treatmentTitle} description={facility.treatmentIntro} />
@@ -22,7 +22,7 @@ export default function FacilityTreatments({ facility }) {
             </div>
           </div>
 
-          <ul className="grid gap-3 sm:grid-cols-2 lg:col-span-7 lg:content-start">
+          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:col-span-7 lg:content-start">
             {facility.treatments.map((item) => (
               <li
                 key={item}

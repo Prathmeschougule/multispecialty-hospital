@@ -9,7 +9,7 @@ function EmergencyGuide({ guide }) {
         <Siren className="h-5 w-5 shrink-0" aria-hidden="true" />
         <h3 className="text-lg font-bold text-white">{guide.title}</h3>
       </div>
-      <ol className="grid gap-4 p-6 sm:grid-cols-2">
+      <ol className="grid grid-cols-1 gap-4 p-6 sm:grid-cols-2">
         {guide.steps.map((step, index) => (
           <li key={step} className="flex gap-3 text-[15px] leading-snug text-heading/85">
             <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-emergency-50 text-sm font-bold text-emergency">
@@ -50,7 +50,7 @@ export default function DepartmentAbout({ department }) {
         }`}
       >
         <h3 className="text-xl font-bold">{department.conditionsTitle}</h3>
-        <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+        <ul className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
           {department.conditions.map((condition) => (
             <li
               key={condition}

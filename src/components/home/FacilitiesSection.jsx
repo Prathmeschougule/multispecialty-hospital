@@ -85,7 +85,7 @@ export default function FacilitiesSection() {
           </Button>
         </div>
 
-        <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {featured && (
             <li className="sm:col-span-2 lg:row-span-2">
               <FacilityTile facility={featured} featured />

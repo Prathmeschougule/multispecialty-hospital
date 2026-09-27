@@ -20,7 +20,7 @@ export default function DepartmentFAQ({ department }) {
     <section id="faqs" className="scroll-mt-28 bg-primary-50/70 py-20 lg:py-24">
       <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
 
-      <Container className="grid gap-12 lg:grid-cols-12 lg:gap-16">
+      <Container className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
         <div className="lg:col-span-5">
           <div className="lg:sticky lg:top-36">
             <SectionHeading

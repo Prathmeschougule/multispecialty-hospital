@@ -29,12 +29,12 @@ export default function Header() {
         }`}
       >
         <Container
-          className={`flex items-center justify-between gap-4 transition-[height] duration-300 ${scrolled ? 'h-16' : 'h-20'}`}
+          className={`flex items-center justify-between gap-2 transition-[height] duration-300 sm:gap-4 ${scrolled ? 'h-16' : 'h-20'}`}
         >
           <Logo compact />
           <DesktopNav />
 
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
             <div className="hidden lg:block">
               <Button to={PATHS.appointment} size="sm">
                 <CalendarCheck className="h-4 w-4" aria-hidden="true" />

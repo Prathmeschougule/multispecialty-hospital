@@ -20,7 +20,7 @@ export default function Departments() {
 
       <section className="py-20 lg:py-24">
         <Container>
-          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {getDepartments().map((department, index) => (
               <li key={department.slug}>
                 <DepartmentCard department={department} index={index} />

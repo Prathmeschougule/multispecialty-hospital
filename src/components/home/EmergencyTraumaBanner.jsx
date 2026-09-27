@@ -14,7 +14,7 @@ export default function EmergencyTraumaBanner() {
           <div aria-hidden="true" className="absolute -right-20 -top-24 h-72 w-72 rounded-full border-[36px] border-white/10" />
           <div aria-hidden="true" className="absolute -bottom-32 left-1/3 h-64 w-64 rounded-full border-[28px] border-white/5" />
 
-          <div className="relative grid gap-8 lg:grid-cols-12 lg:items-center">
+          <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-center">
             <div className="flex flex-col gap-5 sm:flex-row lg:col-span-7">
               <span className="relative grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-white/15 text-white ring-1 ring-white/25">
                 <span aria-hidden="true" className="absolute inset-0 animate-ping rounded-2xl bg-white/10" />
@@ -38,7 +38,7 @@ export default function EmergencyTraumaBanner() {
               </div>
             </div>
 
-            <div className="grid gap-3 sm:grid-cols-2 lg:col-span-5">
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:col-span-5">
               <a
                 href={hospital.emergency.href}
                 className="group flex items-center gap-3 rounded-2xl bg-white p-4 shadow-lg transition hover:-translate-y-0.5"

@@ -43,7 +43,7 @@ export default function ContactSection() {
           description="Reach us any time for emergencies, or during OPD hours for consultations and appointments."
         />
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-12">
+        <div className="mt-14 grid grid-cols-1 gap-6 lg:grid-cols-12">
           <div className="flex flex-col gap-4 lg:col-span-5">
             <ContactCard
               icon={Siren}
@@ -52,7 +52,7 @@ export default function ContactSection() {
               href={hospital.emergency.href}
               tone="emergency"
             />
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <ContactCard icon={Phone} label="Appointments" value={hospital.appointments.phone} href={hospital.appointments.href} />
               <ContactCard icon={MessageCircle} label="WhatsApp" value="Chat with us" href={hospital.whatsappHref} external />
               <ContactCard icon={Mail} label="Email" value={hospital.email} href={hospital.emailHref} className="sm:col-span-2" />

@@ -3,7 +3,8 @@
     "allow": [
       "PowerShell(Get-Content public/sitemap.xml -TotalCount 8; \\(Select-String -Path public/sitemap.xml -Pattern '<loc>'\\).Count)",
       "PowerShell(node scripts/generate-sitemap.mjs; \\(Select-String -Path public/sitemap.xml -Pattern '<loc>'\\).Line.Trim\\(\\) -replace '</?loc>','' | ForEach-Object { $_ })",
-      "Bash(python -)"
+      "Bash(python -)",
+      "PowerShell(node \"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-Administrator-Documents-IMP-dhanvatari-clinic\\\\7ba31062-b9c3-4a6b-8900-bcb3a8f308ac\\\\scratchpad\\\\fix-grids.mjs\" \"$\\(\\(Get-Location\\).Path\\)\\\\src\")"
     ]
   }
 }

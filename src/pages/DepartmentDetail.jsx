@@ -38,7 +38,7 @@ export default function DepartmentDetail() {
       <DepartmentHero department={department} />
       <SectionNav sections={DEPARTMENT_SECTIONS} label={`${department.title} sections`} />
 
-      <Container className="grid gap-12 py-16 lg:grid-cols-12 lg:py-20">
+      <Container className="grid grid-cols-1 gap-12 py-16 lg:grid-cols-12 lg:py-20">
         <div className="lg:col-span-8">
           <DepartmentAbout department={department} />
         </div>

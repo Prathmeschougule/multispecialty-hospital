@@ -42,7 +42,7 @@ const reasons = [
 export default function WhyChooseUs() {
   return (
     <section className="py-20 lg:py-28">
-      <Container className="grid gap-12 lg:grid-cols-12 lg:gap-16">
+      <Container className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
         <div className="lg:col-span-5">
           <div className="lg:sticky lg:top-28">
             <SectionHeading
@@ -65,7 +65,7 @@ export default function WhyChooseUs() {
           </div>
         </div>
 
-        <ul className="grid gap-5 sm:grid-cols-2 lg:col-span-7">
+        <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:col-span-7">
           {reasons.map(({ icon: Icon, title, description }, index) => (
             <li
               key={title}

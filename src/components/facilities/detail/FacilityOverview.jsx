@@ -14,7 +14,7 @@ export default function FacilityOverview({ facility }) {
 
       <div className="mt-10 rounded-3xl bg-linear-to-br from-primary-50 to-ice/60 p-6 ring-1 ring-primary/10 sm:p-8">
         <h3 className="text-xl font-bold">What this facility offers</h3>
-        <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+        <ul className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
           {facility.features.map((feature) => (
             <li
               key={feature}

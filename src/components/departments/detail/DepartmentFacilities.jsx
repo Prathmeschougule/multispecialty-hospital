@@ -13,7 +13,7 @@ export default function DepartmentFacilities({ department }) {
   return (
     <section id="facilities" className="scroll-mt-28 py-20 lg:py-24">
       <Container>
-        <div className="grid gap-12 lg:grid-cols-12 lg:items-center lg:gap-16">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-16">
           <div className="lg:col-span-4">
             <SectionHeading
               eyebrow="Facilities"
@@ -22,7 +22,7 @@ export default function DepartmentFacilities({ department }) {
             />
           </div>
 
-          <ul className="grid gap-4 sm:grid-cols-2 lg:col-span-8">
+          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:col-span-8">
             {items.map(({ facility, note }) => {
               const Icon = facility.icon
               return (

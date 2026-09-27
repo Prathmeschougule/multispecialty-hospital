@@ -20,7 +20,7 @@ export default function Facilities() {
 
       <section className="py-20 lg:py-24">
         <Container>
-          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {getFacilities().map((facility, index) => (
               <li key={facility.slug}>
                 <FacilityCard facility={facility} index={index} />

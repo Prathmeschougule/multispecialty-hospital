@@ -41,7 +41,7 @@ export default function Appointment() {
       />
 
       <section className="py-16 lg:py-20">
-        <Container className="grid gap-8 lg:grid-cols-12 lg:gap-10">
+        <Container className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-10">
           <div className="lg:col-span-8">
             {import.meta.env.DEV && isDemoMode && (
               <p className="mb-6 flex items-start gap-3 rounded-2xl bg-amber-50 p-4 text-sm text-amber-900 ring-1 ring-amber-200">

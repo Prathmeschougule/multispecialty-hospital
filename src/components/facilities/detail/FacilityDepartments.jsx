@@ -19,7 +19,7 @@ export default function FacilityDepartments({ facility }) {
           description="Our departments and facilities work together, so diagnosis and treatment stay under one roof."
         />
 
-        <ul className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {departments.map((department) => {
             const Icon = department.icon
             return (

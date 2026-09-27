@@ -91,7 +91,7 @@ export default function AppointmentForm({ initialValues, onSuccess }) {
       <fieldset disabled={busy} className="space-y-8">
         <div>
           <h2 className="text-lg font-bold">Patient details</h2>
-          <div className="mt-5 grid gap-5 sm:grid-cols-2">
+          <div className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2">
             <FormField id="name" label="Patient Name" error={errors.name} required className="sm:col-span-2">
               {({ id, hasError, describedBy }) => (
                 <input
@@ -185,7 +185,7 @@ export default function AppointmentForm({ initialValues, onSuccess }) {
 
         <div className="border-t border-primary/10 pt-8">
           <h2 className="text-lg font-bold">Appointment details</h2>
-          <div className="mt-5 grid gap-5 sm:grid-cols-2">
+          <div className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2">
             <FormField id="department" label="Department" error={errors.department} required>
               {({ id, hasError, describedBy }) => (
                 <select

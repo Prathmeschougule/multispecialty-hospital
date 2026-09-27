@@ -102,7 +102,7 @@ export default function Doctors() {
 
           <div className="mt-6">
             {loading && (
-              <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {Array.from({ length: 8 }, (_, index) => (
                   <li key={index}>
                     <DoctorCardSkeleton />
@@ -148,7 +148,7 @@ export default function Doctors() {
             )}
 
             {!loading && !error && visibleDoctors.length > 0 && (
-              <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {visibleDoctors.map((doctor) => (
                   <li key={doctor.id}>
                     <DoctorCard doctor={doctor} />

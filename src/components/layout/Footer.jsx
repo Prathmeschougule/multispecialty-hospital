@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-12 lg:gap-8">
+        <div className="grid grid-cols-1 gap-10 py-14 sm:grid-cols-2 lg:grid-cols-12 lg:gap-8">
           <div className="sm:col-span-2 lg:col-span-4">
             <Logo tone="light" />
             <p className="mt-6 text-lg font-semibold italic leading-snug text-white/90">“{hospital.tagline}”</p>
